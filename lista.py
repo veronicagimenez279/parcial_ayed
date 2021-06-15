@@ -1,5 +1,5 @@
-def __criterio (self, dato, criterio):
-    if (criterio == None):
+def __criterio(dato, criterio):
+    if(criterio is None):
         return dato
     else:
         return dato[criterio]
